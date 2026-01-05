@@ -67,7 +67,7 @@ const Navbar: React.FC = () => {
                 key={link.label}
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
-                className={`px-4 py-2 text-sm font-bold transition-all rounded-lg hover:bg-white/5 tracking-tight ${activeSection === link.href.replace('#', '') ? 'text-emerald-400 bg-white/5' : 'text-slate-300 hover:text-white'}`}
+                className={`px-4 py-2 text-sm font-bold transition-all rounded-lg hover:bg-white/5 tracking-tight ${activeSection === link.href.replace('#', '') ? 'text-blue-400 bg-white/5' : 'text-slate-300 hover:text-white'}`}
               >
                 {link.label}
               </a>
@@ -76,7 +76,7 @@ const Navbar: React.FC = () => {
               <a
                 href="#contact"
                 onClick={(e) => handleLinkClick(e, '#contact')}
-                className="bg-emerald-500 text-slate-950 px-7 py-3 rounded-xl text-sm font-black uppercase tracking-tighter hover:bg-emerald-400 transition-all shadow-xl shadow-emerald-500/20 active:scale-95"
+                className="bg-red-600 text-white px-7 py-3 rounded-xl text-sm font-black uppercase tracking-tighter hover:bg-red-500 transition-all shadow-xl shadow-red-600/20 active:scale-95"
               >
                 Get Enquiries
               </a>
@@ -88,7 +88,7 @@ const Navbar: React.FC = () => {
             <a
               href="#contact"
               onClick={(e) => handleLinkClick(e, '#contact')}
-              className="bg-emerald-500 text-slate-950 px-4 py-2 rounded-lg text-[10px] font-black uppercase tracking-tighter shadow-lg active:scale-90 transition-transform"
+              className="bg-red-600 text-white px-4 py-2 rounded-lg text-[10px] font-black uppercase tracking-tighter shadow-lg active:scale-90 transition-transform"
             >
               Enquire
             </a>
@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
                 href={link.href}
                 onClick={(e) => handleLinkClick(e, link.href)}
                 className={`px-4 py-2 text-[10px] font-black uppercase tracking-widest rounded-full transition-all border ${activeSection === link.href.replace('#', '')
-                  ? 'bg-emerald-500 text-slate-950 border-emerald-500'
+                  ? 'bg-blue-600 text-white border-blue-600'
                   : 'bg-white/5 text-slate-400 border-white/10'
                   }`}
               >

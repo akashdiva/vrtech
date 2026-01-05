@@ -13,7 +13,7 @@ const SectionHeader: React.FC<Props> = ({ title, subtitle, description, centered
   return (
     <div className={`mb-16 px-4 ${centered ? 'text-center mx-auto max-w-4xl' : 'text-center lg:text-left mx-auto lg:mx-0 max-w-3xl'}`}>
       {subtitle && (
-        <span className={`block text-xs sm:text-sm font-black uppercase tracking-[0.3em] mb-4 ${light ? 'text-emerald-400' : 'text-emerald-600'}`}>
+        <span className={`block text-xs sm:text-sm font-black uppercase tracking-[0.3em] mb-4 ${light ? 'text-blue-400' : 'text-blue-600'}`}>
           {subtitle}
         </span>
       )}

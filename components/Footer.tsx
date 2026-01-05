@@ -9,17 +9,15 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           <div className="space-y-6">
             <div className="flex items-center space-x-2">
-              <div className="bg-emerald-600 p-2 rounded-lg">
-                <Leaf className="w-5 h-5 text-white" />
-              </div>
+              <img src="/logo-icon.png" alt="VR Technology Logo" className="h-8 w-auto object-contain" />
               <span className="text-xl font-bold text-white tracking-tight">VR Technology</span>
             </div>
             <p className="text-sm leading-relaxed text-slate-400">
               Your partner in sustainable thermal excellence. Providing "Single-Window" solutions for cooling technologies and industrial field services.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-emerald-500 transition-colors"><Linkedin className="w-5 h-5" /></a>
-              <a href="#" className="hover:text-emerald-500 transition-colors"><Globe className="w-5 h-5" /></a>
+              <a href="#" className="hover:text-blue-500 transition-colors"><Linkedin className="w-5 h-5" /></a>
+              <a href="#" className="hover:text-blue-500 transition-colors"><Globe className="w-5 h-5" /></a>
             </div>
           </div>
 
@@ -47,15 +45,15 @@ const Footer: React.FC = () => {
             <h4 className="text-white font-bold mb-6">Contact Details</h4>
             <ul className="space-y-4 text-sm">
               <li className="flex items-start space-x-3">
-                <MapPin className="w-5 h-5 text-emerald-500 flex-shrink-0" />
-                <span>Pan-India Service Reach<br/>24/7 Operations</span>
+                <MapPin className="w-5 h-5 text-blue-500 flex-shrink-0" />
+                <span>Pan-India Service Reach<br />24/7 Operations</span>
               </li>
               <li className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-emerald-500 flex-shrink-0" />
+                <Mail className="w-5 h-5 text-blue-500 flex-shrink-0" />
                 <a href="mailto:services@vrtechnology.in" className="hover:text-white">services@vrtechnology.in</a>
               </li>
               <li className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-emerald-500 flex-shrink-0" />
+                <Phone className="w-5 h-5 text-blue-500 flex-shrink-0" />
                 <span>Request a callback</span>
               </li>
             </ul>
