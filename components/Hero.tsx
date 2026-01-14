@@ -45,9 +45,10 @@ const Hero: React.FC = () => {
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white leading-[1.05] mb-10 tracking-tighter">
             Dry Cooling & <br /><span className="text-blue-500">Heat Exchange</span>
           </h1>
+
           <p className="text-base sm:text-xl text-slate-300 mb-14 leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium">
             VR Technology delivers comprehensive ME&I services to the global energy sector.
-            We specialize in ACHE, AFC, and ACC systems lifecycle management with a
+            We specialize in Air Fin Coolers,Fin Fan Coolers,Air Cooled Condensers and Air Pre Heaters systems lifecycle management with a
             <span className="text-blue-400 font-bold italic"> "Right First Time"</span> approach.
           </p>
 
